@@ -1,0 +1,29 @@
+{
+  "name": "to-do-api",
+  "version": "1.0.0",
+  "description": "A To-Do List REST API For Try.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "api",
+    "rest",
+    "to-do"
+  ],
+  "author": "Altuğ Buğra Çelenk",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.13",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1",
+    "node-gyp": "^3.8.0",
+    "nodemon": "^1.18.6"
+  }
+}
